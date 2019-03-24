@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	</head>
+	<body>
+		<div>
+			 <label>
+		 	 <input id="cb1"
+				type="checkbox"
+				name="product"
+				value="important"/>
+				responbile for marking that product is important
+		   	 </label>
+		</div>
+		<div>
+			<label>
+		  	<input id="cb2"
+				type="checkbox"
+				name="product"
+				value="groceries"/>
+				one that product can be bought in groceries
+		   	 </label>
+		</div>
+		<div id="addInput">
+			<label> Item to add :
+			<input id="in" type="text"
+				placeholder="Choose your item" />
+			</label> 
+			<button type="button" onclick=addItem()> Add </button>
+			<p> Shopping list :</p>
+
+			<ul id="myList">
+				
+			</ul>
+		</div>
+		<div>
+			<label>Supprimer:
+			<input id="cb3"
+			       type="number"
+			       placeholder="Give a number" />
+			<button type="button" onclick=deleteItem()> Delete </button>	
+		    	</label>
+		</div>
+
+
+		
+	<script src="addItem.js"></script>
+	</body>
+</html>
